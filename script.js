@@ -605,7 +605,7 @@ $(document).ready(function() {
 
 
 function initAudio() {
-    var audio = new Audio('/audio.mp3');
+    var audio = new Audio('audio.mp3');
     audio.addEventListener('ended', function() {
         this.currentTime = 0;
         this.play();
